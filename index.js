@@ -161,7 +161,7 @@ function moveDodgerRight() {
 
 window.requestAnimationFrame(function() {
   if (right > 0) {
-    dodger.style.left = `${right + 4}px`
+    dodger.style.left = `${right - 4}px`
 
   }
 })
