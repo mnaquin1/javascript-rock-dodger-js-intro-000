@@ -165,7 +165,7 @@ function() {
 
   }
   window.requestAnimationFrame()
-}
+
 }
 
 /**
