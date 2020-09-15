@@ -122,16 +122,16 @@ function moveDodger(e) {
    * we've declared for you above.)
    * And be sure to use the functions declared below!
    */
-   if ([LEFT_ARROW, RIGHT_ARROW].indexOf(e.which) > - 1) {
+   if (e.which === LEFT_ARROW){
      e.stopPropagation()
      e.preventDefault()
-   }
-   if (e.which === LEFT_ARROW){
      moveDodgerLeft()
-   } if (e.which === RIGHT_ARROW){
+   } else if (e.which === RIGHT_ARROW){
+     e.stopPropagation()
+     e.preventDefault()
      moveDodgerRight()
    }
-}
+   }
 
 function moveDodgerLeft() {
   // implement me!
