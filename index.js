@@ -164,10 +164,10 @@ function() {
     dodger.style.left = `${right + 4}px`
 
   }
-  window.requestAnimationFrame()
+  window.requestAnimationFrame(function)
 
 }
-
+}
 /**
  * @param {string} p The position property
  * @returns {number} The position as an integer (without 'px')
