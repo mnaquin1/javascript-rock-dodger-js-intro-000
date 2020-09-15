@@ -159,15 +159,13 @@ function moveDodgerRight() {
    var rightNumbers = dodger.style.left.replace('px', '')
   var right = parseInt(rightNumbers, 10)
 
-function() {
+window.requestAnimationFrame(function() {
   if (right < 360) {
     dodger.style.left = `${right + 4}px`
 
   }
 
-
-}
-  window.requestAnimationFrame()
+})
 }
 /**
  * @param {string} p The position property
