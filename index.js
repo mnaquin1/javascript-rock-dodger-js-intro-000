@@ -164,9 +164,10 @@ function() {
     dodger.style.left = `${right + 4}px`
 
   }
-  window.requestAnimationFrame(function)
+
 
 }
+  window.requestAnimationFrame()
 }
 /**
  * @param {string} p The position property
